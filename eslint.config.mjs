@@ -25,6 +25,7 @@ export default [
                 defineEmits: 'readonly',
                 defineExpose: 'readonly',
                 withDefaults: 'readonly',
+                alert: 'readonly',
             },
         },
         plugins: {
@@ -46,20 +47,15 @@ export default [
                 },
             ],
             'vue/multi-word-component-names': 'off',
-            'vue/html-indent': ['error', 4],
-            'vue/max-attributes-per-line': [
-                'error',
-                {
-                    singleline: 3,
-                    multiline: 1,
-                },
-            ],
+            'vue/html-indent': 'off',
+            'vue/first-attribute-linebreak': 'off',
+            'vue/max-attributes-per-line': 'off',
             'vue/singleline-html-element-content-newline': 'off',
             'vue/html-self-closing': [
                 'error',
                 {
                     html: {
-                        void: 'never',
+                        void: 'any',
                         normal: 'never',
                         component: 'always',
                     },

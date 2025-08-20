@@ -4,10 +4,10 @@
             <!-- Breadcrumb -->
             <nav class="mb-6">
                 <ol class="flex items-center space-x-2 text-sm">
-                    <li><Link href="/" class="text-blue-600 hover:underline">Home</Link></li>
+                    <li><Link href="/" class="text-blue-600 hover:underline">Início</Link></li>
                     <li class="text-gray-500">/</li>
                     <li>
-                        <Link href="/products" class="text-blue-600 hover:underline">Products</Link>
+                        <Link href="/produtos" class="text-blue-600 hover:underline">Produtos</Link>
                     </li>
                     <li class="text-gray-500">/</li>
                     <li class="text-gray-700">{{ product.name }}</li>

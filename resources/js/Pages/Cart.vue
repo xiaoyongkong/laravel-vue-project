@@ -42,7 +42,7 @@
                                     :src="item.image"
                                     :alt="item.name"
                                     class="w-full sm:w-24 h-24 object-cover rounded"
-                                >
+                                />
 
                                 <!-- Product Info -->
                                 <div class="flex-1">
@@ -65,7 +65,7 @@
                                             type="number"
                                             min="1"
                                             class="w-16 text-center border-0 focus:ring-0"
-                                        >
+                                        />
                                         <button
                                             class="px-3 py-1 text-gray-600 hover:bg-gray-100"
                                             @click="increaseQuantity(item.id)"
@@ -141,11 +141,11 @@
                         <div class="space-y-3 mb-4">
                             <div class="flex justify-between">
                                 <span class="text-gray-600"
-                                >Subtotal ({{ totalItems }}
+                                    >Subtotal ({{ totalItems }}
                                     {{ totalItems === 1 ? 'item' : 'itens' }}):</span
                                 >
                                 <span class="font-medium"
-                                >R$
+                                    >R$
                                     {{
                                         subtotal.toLocaleString('pt-BR', {
                                             minimumFractionDigits: 2,
@@ -174,7 +174,7 @@
                             <div class="flex justify-between text-lg font-bold">
                                 <span>Total:</span>
                                 <span class="text-green-600"
-                                >R$
+                                    >R$
                                     {{
                                         total.toLocaleString('pt-BR', { minimumFractionDigits: 2 })
                                     }}</span
@@ -194,7 +194,7 @@
                         <!-- Discount Coupon -->
                         <div class="mb-6">
                             <label class="block text-sm font-medium text-gray-700 mb-2"
-                            >Cupom de desconto</label
+                                >Cupom de desconto</label
                             >
                             <div class="flex">
                                 <input
@@ -202,7 +202,7 @@
                                     type="text"
                                     placeholder="Digite seu cupom"
                                     class="flex-1 px-3 py-2 border border-gray-300 rounded-l-lg focus:outline-none focus:border-blue-500"
-                                >
+                                />
                                 <button
                                     class="px-4 py-2 bg-gray-200 text-gray-700 rounded-r-lg hover:bg-gray-300 transition"
                                     @click="applyCoupon"

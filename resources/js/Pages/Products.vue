@@ -83,9 +83,7 @@
                 <main class="lg:w-3/4">
                     <!-- Search -->
                     <div class="flex justify-between items-center mb-6">
-                        <h1 class="text-2xl font-bold">
-                            Products ({{ products.length }} results)
-                        </h1>
+                        <h1 class="text-2xl font-bold">Products ({{ products.length }} results)</h1>
                         <select class="border border-gray-300 rounded px-3 py-2">
                             <option>Mais relevantes</option>
                             <option>Menor preço</option>
