@@ -1,0 +1,30 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "lint": "eslint . --fix",
+        "format": "prettier --write ."
+    },
+    "devDependencies": {
+        "@rushstack/eslint-patch": "^1.12.0",
+        "@vue/eslint-config-prettier": "^10.2.0",
+        "axios": "^1.6.4",
+        "eslint": "^9.33.0",
+        "eslint-plugin-vue": "^10.4.0",
+        "laravel-vite-plugin": "^0.8",
+        "prettier": "^3.6.2",
+        "vite": "^4",
+        "vue-eslint-parser": "^10.2.0"
+    },
+    "name": "laravel-vue-project",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+        "@inertiajs/vue3": "^2.1.2",
+        "@vitejs/plugin-vue": "^4",
+        "vue": "3"
+    }
+}
